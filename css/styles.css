@@ -1,0 +1,179 @@
+.list {
+    list-style:none;
+}
+
+.link {
+    list-style: none;
+    text-decoration: none;  
+}
+ /* ---------------------------------- PAGE - HEADER ------------ */
+.page-header {
+    width: 1440;
+    height: 72;
+    font-family: Roboto;
+}
+
+.logo {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height, or 117% */
+    
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+        text-decoration: none;
+}
+
+.logo>span {
+    color: #2E2F42
+}
+
+.logo:hover, 
+.logo:focus {
+    color: #f7f3f4;
+}
+.logo > span:hover,
+.logo > span:focus{
+    color: #e1e2ee;
+}
+
+.menu-link {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.33;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #e4e4f0;
+}
+
+.address a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+} 
+
+.address a:hover, 
+.address a:focus {
+    color: #ededf8;
+}
+
+.page-body {
+font-family: Roboto;
+}
+
+.btn {
+
+color: #4D5AE5;
+/* Button Text */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+
+.portfolio h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height, or 120% */
+    
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.portfolio p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+            /* identical to box height, or 150% */
+        
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.portfolio .elem {
+    width: 360 ;
+    height: 420;
+
+}
+footer {
+position: absolute;
+    width: 1440px;
+    height: 312px;
+    background-color: #2e2f42;
+}
+
+footer .logo {
+        color: #4D5AE5;
+        padding-left: 156px;
+        padding-top: 50px;
+        padding-bottom: 19px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height, or 117% */
+    
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}   
+
+footer span {
+    color: #FFFFFF;
+}
+
+footer .logo span:hover
+footer .logo span:focus {
+    color: #4D5AE5;
+}
+
+footer p {
+    padding-left: 156px;
+    padding-top: 16px;
+    padding-right: 1020px;
+    padding-bottom: 100px;
+
+        color: #F4F4FD;
+        position: absolute;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:400;
+        font-size:16px;
+        line-height:24px;
+    letter-spacing: 0.08em;
+        
+}
