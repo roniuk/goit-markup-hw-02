@@ -6,19 +6,25 @@
     list-style: none;
     text-decoration: none;  
 }
+
+.link:hover
+.link:focus {
+    color: #404bbf;
+}
  /* ---------------------------------- PAGE - HEADER ------------ */
 .page-header {
     width: 1440;
     height: 72;
     font-family: Roboto;
+    background-color: #2e2f42;
 }
 
 .logo {
-    font-family: 'Raleway';
+    font-family: Raleway, sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 21px;
+        line-height: 1.17;
         /* identical to box height, or 117% */
     
         display: flex;
@@ -47,16 +53,17 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 1.33;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .menu-link:hover,
 .menu-link:focus {
-    color: #e4e4f0;
+    color: #404bbf;
 }
 
 .address a {
+    font-style: normal;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -72,21 +79,30 @@ color: #2E2F42;
 }
 
 .page-body {
-font-family: Roboto;
+font-family: Roboto, sans-serif;
+color: #434455;
+background-color:#2e2f42;
+}
+
+.choise {
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #ffffff;
 }
 
 .btn {
-
 color: #4D5AE5;
 /* Button Text */
-
-    font-family: 'Roboto';
+    background-color: #4D5AE5;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     /* identical to box height, or 150% */
-
+     color: #ffffff;
     display: flex;
     align-items: center;
     text-align: center;
@@ -95,9 +111,11 @@ color: #4D5AE5;
 }
 
 .btn:hover, .btn:focus {
-    background-color: #4D5AE5;
+    background-color: #404BBF;
     color: #FFFFFF;
+    cursor: pointer;
 }
+
 
 .portfolio h3 {
         font-family: 'Roboto';
@@ -116,9 +134,8 @@ color: #4D5AE5;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
             /* identical to box height, or 150% */
-        
         letter-spacing: 0.02em;
         color: #434455;
 }
@@ -153,7 +170,7 @@ footer .logo {
 }   
 
 footer span {
-    color: #FFFFFF;
+    color: #f4f4fd
 }
 
 footer .logo span:hover
@@ -169,11 +186,11 @@ footer p {
 
         color: #F4F4FD;
         position: absolute;
-        font-family: 'Roboto';
+        font-family: Roboto, sans-serif;
         font-style: normal;
         font-weight:400;
         font-size:16px;
-        line-height:24px;
+        line-height:1.17;
     letter-spacing: 0.08em;
         
 }
