@@ -35,7 +35,8 @@
         text-decoration: none;
 }
 
-.logo>span {
+.logo>.span-logo-header{
+    font-style: normal;
     color: #2E2F42
 }
 
@@ -43,9 +44,9 @@
 .logo:focus {
     color: #f7f3f4;
 }
-.logo > span:hover,
-.logo > span:focus{
-    color: #e1e2ee;
+.logo > .span-logo-header:hover,
+.logo > .span-logo-header:focus {
+    color: #404bbf;
 }
 
 .menu-link {
@@ -62,7 +63,7 @@ color: #2E2F42;
     color: #404bbf;
 }
 
-.address a {
+.address {
     font-style: normal;
     font-family: 'Roboto';
     font-style: normal;
@@ -75,7 +76,7 @@ color: #2E2F42;
 
 .address a:hover, 
 .address a:focus {
-    color: #ededf8;
+color: #404bbf;
 }
 
 .page-body {
@@ -83,7 +84,7 @@ font-family: Roboto, sans-serif;
 color: #434455;
 background-color:#2e2f42;
 }
-
+.filters,
 .choise {
 font-size: 56px;
 line-height: 1.07;
@@ -144,14 +145,15 @@ color: #4D5AE5;
     height: 420;
 
 }
-footer {
+.footer {
 position: absolute;
     width: 1440px;
     height: 312px;
     background-color: #2e2f42;
 }
 
-footer .logo {
+.footer .logo {
+        font-family: Raleway, sans-serif;
         color: #4D5AE5;
         padding-left: 156px;
         padding-top: 50px;
@@ -160,7 +162,7 @@ footer .logo {
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 21px;
+        line-height: 1.17;
         /* identical to box height, or 117% */
     
         display: flex;
@@ -169,16 +171,16 @@ footer .logo {
         text-transform: uppercase;
 }   
 
-footer span {
+.footer .span-logo {
     color: #f4f4fd
 }
 
-footer .logo span:hover
-footer .logo span:focus {
+.footer .logo .span-logo:hover
+.footer .logo .span-logo:focus {
     color: #4D5AE5;
 }
 
-footer p {
+.footer p {
     padding-left: 156px;
     padding-top: 16px;
     padding-right: 1020px;
