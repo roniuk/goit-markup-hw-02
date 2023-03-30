@@ -84,6 +84,10 @@ font-family: Roboto, sans-serif;
 color: #434455;
 background-color:#2e2f42;
 }
+
+.webstudio {
+
+}
 .filters,
 .choise {
 font-size: 56px;
@@ -94,16 +98,15 @@ color: #ffffff;
 }
 
 .btn {
-color: #4D5AE5;
+    color: #4D5AE5;
 /* Button Text */
-    background-color: #4D5AE5;
+    background-color: #F4F4FD;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     /* identical to box height, or 150% */
-     color: #ffffff;
     display: flex;
     align-items: center;
     text-align: center;
@@ -153,12 +156,11 @@ position: absolute;
 }
 
 .footer .logo {
-        font-family: Raleway, sans-serif;
+        font-family:'Raleway', sans-serif;
         color: #4D5AE5;
         padding-left: 156px;
         padding-top: 50px;
         padding-bottom: 19px;
-        font-family: 'Raleway';
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
