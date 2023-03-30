@@ -12,12 +12,13 @@
     color: #404bbf;
 }
  /* ---------------------------------- PAGE - HEADER ------------ */
- .body {
-    font-family: "Roboto", sans-serif;
+ body {
+    font-family: Roboto, sans-serif;
     color:#434455;
+    background-color:#FFFFFF;
  }
 
- 
+
 .page-header {
     width: 1440;
     height: 72;
@@ -56,7 +57,7 @@
 }
 
 .menu-link {
-font-family: 'Roboto';
+font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -91,9 +92,6 @@ color: #434455;
 background-color:#2e2f42;
 }
 
-.webstudio {
-
-}
 .filters,
 .choise {
 font-size: 56px;
@@ -127,19 +125,19 @@ color: #ffffff;
 }
 
 
-.portfolio h3 {
+.portfolio {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 1.2px;
         /* identical to box height, or 120% */
     
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
 
-.portfolio p {
+.port-text {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -155,7 +153,7 @@ color: #ffffff;
 
 }
 .footer-site {
-position: absolute;
+    position: absolute;
     width: 1440px;
     height: 312px;
     background-color: #2e2f42;
@@ -179,16 +177,16 @@ position: absolute;
         text-transform: uppercase;
 }   
 
-.footer .span-logo {
+.span-logo {
     color: #f4f4fd
 }
 
-.footer .logo .span-logo:hover
-.footer .logo .span-logo:focus {
+.span-logo:hover
+.span-logo:focus {
     color: #4D5AE5;
 }
 
-.footer p {
+footer p {
     padding-left: 156px;
     padding-top: 16px;
     padding-right: 1020px;
