@@ -12,6 +12,12 @@
     color: #404bbf;
 }
  /* ---------------------------------- PAGE - HEADER ------------ */
+ .body {
+    font-family: "Roboto", sans-serif;
+    color:#434455;
+ }
+
+ 
 .page-header {
     width: 1440;
     height: 72;
