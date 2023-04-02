@@ -1,3 +1,7 @@
+ :root {
+    --base-color:#ffffff;
+ }
+
 .list {
     list-style:none;
 }
@@ -17,7 +21,9 @@
     letter-spacing: 0.02em;
 }
 
-.section-three {
+.section-three,
+.name-sektion-two,
+.name-sektion-fo {
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -27,7 +33,7 @@ color: #2e2f42;
 }
 
 .section-fo {
-background-color: #F4F4FD;
+background-color:var(--base-color);
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -35,11 +41,15 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
 }
+
+.span-logo {
+color: #f4f4fd;
+}
  /* ---------------------------------- PAGE - HEADER ------------ */
  body {
     font-family: Roboto, sans-serif;
     color:#434455;
-    background-color:#FFFFFF;
+    background-color:var(--base-color);
  }
 
 
@@ -128,10 +138,10 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: #ffffff;
-cursor: pointer;
+
 }
 
-.button-order {
+.hero-image .btn {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -139,13 +149,16 @@ cursor: pointer;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    cursor: pointer;
 }
-.button-order:hover
-.button-order:focus {
+
+.hero-image .btn:hover,
+.hero-image .btn:focus {
     background-color: #404BBF;
 }
 
 .name-sektion-two,
+.name-sektion-elem,
 .subname-fo {
 font-weight: 500;
 font-size: 20px;
