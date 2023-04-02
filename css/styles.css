@@ -11,6 +11,30 @@
 .link:focus {
     color: #404bbf;
 }
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.section-three {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2e2f42;
+}
+
+.section-fo {
+background-color: #F4F4FD;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2e2f42;
+}
  /* ---------------------------------- PAGE - HEADER ------------ */
  body {
     font-family: Roboto, sans-serif;
@@ -87,11 +111,49 @@ color: #404bbf;
 
 .email, 
 .phone-number {
-font-size: 16px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+/* /////////////////  INDEX - HTML   //////////////////////// */
+.hero-image {
+    background-color:#2e2f42;
+
+}
+
+.hero-imag-name {
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #ffffff;
+cursor: pointer;
+}
+
+.button-order {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+.button-order:hover
+.button-order:focus {
+    background-color: #404BBF;
+}
+
+.name-sektion-two,
+.subname-fo {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+/* /////////////////// PORTFOLIO - HTML  ///////////////////// */
 
 .page-body {
 font-family: Roboto, sans-serif;
