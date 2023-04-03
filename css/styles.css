@@ -195,6 +195,12 @@ color: #ffffff;
 } */
 
 .btn {
+        position: absolute;
+        width: 169px;
+        height: 56px;
+        left: 636px;
+        top: 428px;
+        padding:636px;
     color: #4D5AE5;
 /* Button Text */
     background-color: #F4F4FD;
