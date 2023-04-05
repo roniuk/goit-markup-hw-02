@@ -6,7 +6,7 @@
         --cornflower:#E7E9FC;
         --cloud:#f4f4fd;
         --ocean:#404BBF;
-        #434455
+        
     
  }
 
@@ -61,7 +61,7 @@ color: #f4f4fd;
  /* ---------------------------------- PAGE - HEADER ------------ */
  body {
     font-family: Roboto, sans-serif;
-    color:var(---slate-text);
+    color:var(--slate-text);
     background-color:var(--base-wait-color);
  }
 
@@ -99,12 +99,12 @@ color: var(--navy-blue);
 }
 .menu-link:hover,
 .menu-link:focus {
-    color: var(--iris);
+    color: var(--ocean);
 }
-/* 
+
 .address {
     font-style: normal;
-    font-family: 'Roboto';
+    /* font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -114,8 +114,8 @@ color: var(--navy-blue);
 
 /* .address a:hover, 
 .address a:focus {
-color: var(--slate-text);
-} */
+color: var(--slate-text);*/
+} 
 
 
 .contact-link {
@@ -167,7 +167,7 @@ color: var(--base-wait-color);
 .btn:hover,
 .btn:focus {
     color: var(---ocean);
-    background-color: var(--base-wait-color);
+    background-color: var(--ocean);
     
 }
 
@@ -225,7 +225,7 @@ background-color:#2e2f42;
 
 .btn-port:hover,
 .btn-port:focus {
-    color: var(---base-wait-color);
+    color: var(--base-wait-color);
     background-color: var(--ocean);    
 }
 
