@@ -4,6 +4,10 @@
         --base-wait-color: #ffffff;
         --iris: #4D5AE5;
         --cornflower:#E7E9FC;
+        --cloud:#f4f4fd;
+        --ocean:#404BBF;
+        #434455
+    
  }
 
 .list {
@@ -57,7 +61,7 @@ color: #f4f4fd;
  /* ---------------------------------- PAGE - HEADER ------------ */
  body {
     font-family: Roboto, sans-serif;
-    color:var(--iris);
+    color:var(---slate-text);
     background-color:var(--base-wait-color);
  }
 
@@ -97,7 +101,7 @@ color: var(--navy-blue);
 .menu-link:focus {
     color: var(--iris);
 }
-
+/* 
 .address {
     font-style: normal;
     font-family: 'Roboto';
@@ -106,12 +110,12 @@ color: var(--navy-blue);
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--slate-text);
-} 
+}  */
 
-.address a:hover, 
+/* .address a:hover, 
 .address a:focus {
-color: iris;
-}
+color: var(--slate-text);
+} */
 
 
 .contact-link {
@@ -119,6 +123,11 @@ color: iris;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate-text);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color:var(--ocean);
 }
 /* .email, 
 .phone-number {
@@ -157,7 +166,7 @@ color: var(--base-wait-color);
 
 .btn:hover,
 .btn:focus {
-    color: var(--iris);
+    color: var(---ocean);
     background-color: var(--base-wait-color);
     
 }
@@ -202,7 +211,7 @@ background-color:#2e2f42;
 .btn-port {
     color: var(--iris);
     /* Button Text */
-    background-color: var(--cornflower);
+    background-color: var(--cloud);
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -216,8 +225,8 @@ background-color:#2e2f42;
 
 .btn-port:hover,
 .btn-port:focus {
-    color: var(--cornflower);
-    background-color: var(--iris);    
+    color: var(---base-wait-color);
+    background-color: var(--ocean);    
 }
 
 .port-text {
@@ -258,12 +267,12 @@ background-color:#2e2f42;
 
 .footer .logo:hover,
 .footer .logo:focus {
-    color: var(--cornflower);
+    color: var(---base-wait-color);
 }
 
 
 .span-logo {
-    color: var(--cornflower);
+    color: var(--cloud);
 }
 
 .span-logo:hover
