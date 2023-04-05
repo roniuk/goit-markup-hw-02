@@ -1,5 +1,9 @@
  :root {
-    --base-color:#ffffff;
+        --navy-blue: #2E2F42;
+        --slate-text:#434455;
+        --base-wait-color: #ffffff;
+        --iris: #4D5AE5;
+        --cornflower:#E7E9FC;
  }
 
 .list {
@@ -7,24 +11,22 @@
 }
 
 .link {
-    color:#434455;
-    list-style: none;
     text-decoration: none;  
 }
 
 .link:hover
 .link:focus {
-    color: #404bbf;
+    color: var(--iris);
 }
 
 .section-fo .list .elem {
-    background-color:#FFFFFF;
+    background-color:var(--base-wait-color);
 }
 .text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#434455;
+    color: var(--slate-text);
 }
 
 
@@ -36,7 +38,7 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2e2f42;
+color: var(--navy-blue);
 }
 
 .section-fo {
@@ -46,7 +48,7 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2e2f42;
+color: var(--navy-blue);
 }
 
 .span-logo {
@@ -55,37 +57,24 @@ color: #f4f4fd;
  /* ---------------------------------- PAGE - HEADER ------------ */
  body {
     font-family: Roboto, sans-serif;
-    color:#434455;
-    background-color:var(--base-color);
+    color:var(--iris);
+    background-color:var(--base-wait-color);
  }
-
-
-.page-header {
-    width: 1440;
-    height: 72;
-    font-family: Roboto;
-    background-color: --base-color;
-}
 
 .logo {
     font-family: Raleway, sans-serif;
-        font-style: normal;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         /* identical to box height, or 117% */
-    
-        display: flex;
-        align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4D5AE5;
+        color: var(--iris);
         text-decoration: none;
 }
 
 .logo>.span-logo-header{
-    font-style: normal;
-    color: #2E2F42
+    color: var(--navy-blue);
 }
 
 .logo:hover, 
@@ -94,21 +83,19 @@ color: #f4f4fd;
 }
 .logo > .span-logo-header:hover,
 .logo > .span-logo-header:focus {
-    color: #404bbf;
+    color: var(--iris);
 }
 
 .menu-link {
-font-family: Roboto;
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2e2f42;
+color: var(--navy-blue);
 }
 .menu-link:hover,
 .menu-link:focus {
-    color: #404bbf;
+    color: var(--iris);
 }
 
 .address {
@@ -118,12 +105,12 @@ color: #2e2f42;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--slate-text);
 } 
 
 .address a:hover, 
 .address a:focus {
-color: #404bbf;
+color: iris;
 }
 
 
@@ -131,15 +118,15 @@ color: #404bbf;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--slate-text);
 }
-.email, 
+/* .email, 
 .phone-number {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455; 
-}
+    color: var(--iris);
+} */
 /* /////////////////  INDEX - HTML   //////////////////////// */
 
 
@@ -153,24 +140,26 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color: #ffffff;
+color: var(--base-wait-color);
 
 }
 
-.hero-image .btn {
-    background-color: #4D5AE5;
+.btn {
+    color: var(--base-wait-color);
+    background-color: var(--iris);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
     cursor: pointer;
 }
 
-.hero-image .btn:hover,
-.hero-image .btn:focus {
-    background-color: #404BBF;
+.btn:hover,
+.btn:focus {
+    color: var(--iris);
+    background-color: var(--base-wait-color);
+    
 }
 
 .name-sektion-two,
@@ -183,8 +172,17 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
+.name-sektion-three,
+.name-sektion-fo {
+    color:var(--navy-blue);
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+}
 .elem {
-  color:#FFFFFF;  
+  color:var(--base-wait-color)F;  
 }
 /* /////////////////// PORTFOLIO - HTML  ///////////////////// */
 
@@ -194,76 +192,55 @@ color: #434455;
 background-color:#2e2f42;
 }
 
-/* .filters,
-.choise {
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-color: #ffffff;
-} */
-
-.btn {
-    color: #4D5AE5;
-/* Button Text */
-    background-color: #F4F4FD;
+.portfolio {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.btn-port {
+    color: var(--iris);
+    /* Button Text */
+    background-color: var(--cornflower);
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     /* identical to box height, or 150% */
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
 
-.btn:hover, .btn:focus {
-    background-color: #404BBF;
-    color: #FFFFFF;
-    cursor: pointer;
-}
-
-
-.portfolio {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        /* identical to box height, or 120% */
-    
-        letter-spacing: 0.02em;
-        color: #2E2F42;
+.btn-port:hover,
+.btn-port:focus {
+    color: var(--cornflower);
+    background-color: var(--iris);    
 }
 
 .port-text {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
-            /* identical to box height, or 150% */
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--slate-text);
 }
 .portfolio .elem {
     width: 360 ;
     height: 420;
 
 }
-.footer-site {
+ .footer-site {
     position: absolute;
     width: 1440px;
-    height: 312px;
+    /* height: 312px;  */
     background-color: #2e2f42;
-}
+} 
 
 .footer .logo {
         font-family:'Raleway', sans-serif;
-        color: #4D5AE5;
+        color: var(--iris);
         padding-left: 156px;
         padding-top: 50px;
         padding-bottom: 19px;
@@ -279,28 +256,25 @@ color: #ffffff;
         text-transform: uppercase;
 }   
 
+.footer .logo:hover,
+.footer .logo:focus {
+    color: var(--cornflower);
+}
+
+
 .span-logo {
-    color: #f4f4fd
+    color: var(--cornflower);
 }
 
 .span-logo:hover
 .span-logo:focus {
-    color: #4D5AE5;
+    color: var(--iris);
 }
 
 footer p {
-    padding-left: 156px;
-    padding-top: 16px;
-    padding-right: 1020px;
-    padding-bottom: 100px;
-
-        color: #F4F4FD;
-        position: absolute;
-        font-family: Roboto, sans-serif;
-        font-style: normal;
-        font-weight:400;
+        color:var(--cornflower);
         font-size:16px;
         line-height:1.17;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.02em;
         
 }
