@@ -46,17 +46,11 @@ color: var(--navy-blue);
 }
 
 .section-fo {
-background-color:#F4F4FD;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--navy-blue);
+background-color:var(--cloud);
 }
 
 .span-logo {
-color: #f4f4fd;
+color: var(--cloud);
 }
  /* ---------------------------------- PAGE - HEADER ------------ */
  body {
@@ -81,14 +75,6 @@ color: #f4f4fd;
     color: var(--navy-blue);
 }
 
-.logo:hover, 
-.logo:focus {
-    color: #f7f3f4;
-}
-.logo > .span-logo-header:hover,
-.logo > .span-logo-header:focus {
-    color: var(--iris);
-}
 
 .menu-link {
 font-weight: 500;
@@ -104,17 +90,6 @@ color: var(--navy-blue);
 
 .address {
     font-style: normal;
-    /* font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--slate-text);
-}  */
-
-/* .address a:hover, 
-.address a:focus {
-color: var(--slate-text);*/
 } 
 
 
@@ -129,18 +104,11 @@ color: var(--slate-text);*/
 .contact-link:focus {
     color:var(--ocean);
 }
-/* .email, 
-.phone-number {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--iris);
-} */
+
 /* /////////////////  INDEX - HTML   //////////////////////// */
 
-
 .hero-image {
-    background-color:#2e2f42;
+    background-color:var(--navy-blue);
 
 }
 
@@ -166,9 +134,7 @@ color: var(--base-wait-color);
 
 .btn:hover,
 .btn:focus {
-    color: var(---ocean);
-    background-color: var(--ocean);
-    
+    background-color: var(--ocean); 
 }
 
 .name-sektion-two,
@@ -178,7 +144,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2e2f42;
+color: var(--navy-blue);
 }
 
 .name-sektion-three,
@@ -197,8 +163,8 @@ color: #2e2f42;
 
 .page-body {
 font-family: Roboto, sans-serif;
-color: #434455;
-background-color:#2e2f42;
+color: var(--slate-text);
+background-color:var(--navy-blue);
 }
 
 .portfolio {
@@ -206,7 +172,7 @@ background-color:#2e2f42;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--navy-blue);
 }
 .btn-port {
     color: var(--iris);
@@ -241,10 +207,7 @@ background-color:#2e2f42;
 
 }
  .footer-site {
-    position: absolute;
-    width: 1440px;
-    /* height: 312px;  */
-    background-color: #2e2f42;
+    background-color: var(--navy-blue);
 } 
 
 .footer .logo {
@@ -258,7 +221,6 @@ background-color:#2e2f42;
         font-size: 18px;
         line-height: 1.17;
         /* identical to box height, or 117% */
-    
         display: flex;
         align-items: center;
         letter-spacing: 0.03em;
@@ -280,10 +242,9 @@ background-color:#2e2f42;
     color: var(--iris);
 }
 
-footer p {
-        color:var(--cornflower);
-        font-size:16px;
-        line-height:1.17;
-    letter-spacing: 0.02em;
-        
+.footer-text {
+    color:var(--cornflower);
+    font-size:16px;
+    line-height:1.17;
+    letter-spacing: 0.02em;      
 }
